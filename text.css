@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: trebuchet MS;
+}
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/hj.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+ul{
+	float: left;
+	list-style-type: none;
+	position: absolute;
+	top: 20px;
+	left: 6px;	
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 30px;
+	border: 0px solid transparent;
+	transition: 0.8s ease;
+	border-radius: 5px;
+}
+ul li a:hover{
+	background-color: #d1d4cc;
+	color: #000;
+}
+ul li.active a{
+	background-color: #d1d4cc;
+	color: #000;
+}
+.title{
+	position:absolute;
+	top: 35%;
+	left: 5%;
+	transform(-50%-%50%);
+}
+.title h2{
+	color: #e3e1ea;
+	font-size: 10px;
+}
+.two{
+	position:absolute;
+	top: 75%;
+	left: 15%;
+	transform(-50%-%50%);
+}
+.two{
+	color: #e3e1ea;
+	font-size: 100px;
+}
+.button{
+	position:absolute;
+	top: 220%;
+	left: 40%;
+	transform:(-50%-%50%);
+}
+.btn1{
+	padding: 10px 35px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid ;
+	transition: 0.8s ease;
+	
+}
+.btn1:hover{
+	background-color: #d1d4cc;
+	color: #000;	
+}
+.btn2{
+	padding: 10px 22px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid ;
+	transition: 0.8s ease;
+	
+}
+.btn2:hover{
+	background-color: #d1d4cc;
+	color: #000;	
+}
+
+
+	
